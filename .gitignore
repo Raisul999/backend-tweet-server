@@ -1,5 +1,2 @@
-#dependies
-/node_modules
-
-# local env files
-.env*.local
+node_modules
+.env
