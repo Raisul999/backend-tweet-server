@@ -18,7 +18,11 @@ const server = async () => {
 
     // console.log(channel, keyword)
 
+    console.log(process.env.TWITTER_TOKEN)
+
     const client = new TwitterApi(process.env.TWITTER_TOKEN);
+
+    
 
 
     const stream = await client.v2.searchStream();
